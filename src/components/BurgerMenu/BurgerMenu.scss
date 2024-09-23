@@ -1,0 +1,159 @@
+
+
+
+
+
+
+
+.burger-menu {
+  @media (min-width: 320px) {
+    background: cornflowerblue;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+  }
+}
+
+.burger-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  position: relative;
+}
+
+.menu-items li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+}
+
+.menu-items li:hover a {
+  color: #575757;
+}
+
+.menu-items li:hover {
+  color: #575757;
+}
+
+.burger-menu_span {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+
+.burger-symbol {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -4px;
+}
+
+.sub-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #ffeb3b;;
+  position: absolute;
+  top: -288px;
+  left: 42%;
+  width: 57%;
+  height: 285px;
+  display: block;
+  z-index: 1;
+  white-space: normal;
+}
+
+.sub-menu li {
+  padding: 3.5px;
+  break-inside: avoid;
+  font-family: "Lato", sans-serif;
+}
+
+.sub-menu li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  // margin-left: 5px;
+}
+
+.sub-menu li:hover a {
+  color: #575757;
+}
+
+.sub-menu li:hover {
+  background: #f1f1f1;
+}
+
+.burger-menu .sub-menu {
+  display: block;
+}
+
+hr {
+  margin: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: -310px;
+  z-index: 2;
+  right: 2%;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+  background: white;
+  border-radius: 15px;
+}
+
+.close-button:hover {
+  color: #575757;
+}
+
+.sub-menu-container {
+  position: relative;
+}
+
+.red-text1 {
+  // color: blue;
+  color: red;
+  font-size: 16px;
+  // font-weight: bold;
+}
+
+.red-text {
+  color: red;
+  font-size: 17px;
+  // font-weight: bold;
+}
+
+ .two-columns {
+
+//  width:46.5%;
+// margin-top: -10px;
+  height: 300px;
+  width: 57.2%;
+  // margin-left: 40px;
+  // background: green;
+}
+
+.menu-logo {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

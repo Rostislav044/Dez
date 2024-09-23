@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.imgMain {
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sectionMainText {
+  text-align: center;
+  
+}
+
+.sectionDivImg {
+  background-image: url(./ImgMain/pexels.jpg);
+  width: 100%; /* Ширина дива */
+  height: 200px; /* Высота дива */
+  background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь див */
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Избегать повторения изображения */
+}
+
+.testP {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=Main.css.map */

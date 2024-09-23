@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.imgMain{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sectionMainText{
+    text-align: center;
+    font-size: 20px;
+    font-family: revert;
+    margin-top: 31%;
+    color: blue;
+    font-family: "Lato",sans-serif;
+
+}
+
+// .sectionDivImg{
+//     background-image: url(./ImgMain/pexels.jpg);
+//     // max-width: 100%; // Изображение не будет превышать ширину родительского контейнера
+//     // height: auto; // Автоматический подбор высоты для сохранения пропорций
+//     width: 100%; /* Ширина дива */
+//             height: 200px; /* Высота дива */
+          
+//             background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь див */
+//             background-position: center; /* Центрирование изображения */
+//             background-repeat: no-repeat; /* Избегать повторения изображения */
+// }
+.sectionImg{
+    width: 100%;
+    // height: 200px;
+    height: auto;
+    object-fit: cover;
+}
+.sectionImg{
+    @media (min-width: 768px) and (max-width: 1024px) {
+        width: 100%;
+        // height: 200px;
+        height: auto;
+        object-fit: cover;
+}
+}
+.slogan{
+    color: brown;
+    font-size: 18px;
+    font-weight:500;
+    text-align: center;
+    font-style: oblique;
+}
+

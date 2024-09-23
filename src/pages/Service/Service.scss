@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.pService {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+    font-family: "Quicksand", sans-serif;
+}
+.serviceSpan{
+    color: red;
+    margin: 0 5px 0 5px;
+    font-size: 22px;
+    
+}
+.service-img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 16px;
+}

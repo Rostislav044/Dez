@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.headerLogoContacts {
+    @media (min-width: 320px) {
+      display: flex;
+      // height: 113px;
+      width: 96%;
+      justify-content: center;
+    }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white; /* Добавьте фон, чтобы хедер перекрывал контент */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Добавьте тень для разделения хедера и контента */
+  }
+  
+  .divLogotip {
+    @media (min-width: 320px) {
+      width: 69%;
+      // background-color: gold;
+    }
+  }
+  
+  .logotel {
+    // width: 50%;
+    // background: green;
+  }
+  
+  // .logoText {
+  //   @media (min-width: 320px) {
+  //     width: 180px;
+  //     // margin-left: 2%;
+  //     margin-top: 5px;
+  //     font-size: 15px;
+  //     font-family: "Quicksand",sans-serif ;
+  //     margin: 5px 0 0 0;
+  //   }
+  // }
+  
+  // .LogoTextSpan {
+  //   font-size: 14px;
+  //   @media (min-width: 320px) {
+  //     margin-left: 3%;
+  //     font-size: 19px;
+  //   }
+  // }
+  
+  .aLogoTel {
+    @media (min-width: 320px) {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+    }
+  }
+  
+  .logotip2 {
+    @media (min-width: 320px) {
+      width: 60px;
+      height: 60px;
+      margin: 3px  0 0 -3px;
+      
+    }
+  }
+  
+  .logoTelefon {
+    @media (min-width: 320px) {
+      width: 30px;
+      height: 30px;
+      margin-top: 5px;
+      margin-left: -37px;
+    }
+  }
+  
+  .logoTelegram,
+  .logoViber,
+  .logoEmail {
+    @media (min-width: 320px) {
+      width: 30px;
+      height: 30px;
+      margin-top: 5px;
+    }
+  }
+  .logotel{
+    // background: gold;
+    margin-left: -10px;
+  }
+  
+  .logoDiv3 {
+    @media (min-width: 320px) {
+      display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-left: 9px;
+        margin-top: 3px;
+    }
+  }
+  
+  .header__phone_p {
+    @media (min-width: 320px) {
+      
+      margin-top: 10px;
+      font-size: 16px;
+      margin-bottom: 31px;
+      padding-left: 5px;
+    }
+  }
+  
+  .linkHom {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .logoleftHom {
+    display: flex;
+    // background: gold;
+    justify-content:space-evenly;
+    // gap: 18px;
+    margin-top: 10px;
+    // width: 400px;
+    // margin-left: 5px;
+  }
+  
+  .logoleftHomJpg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 60px;
+  }
+  
+  .LodoShopJpg1 {
+    width: 15px;
+    height: 15px;
+  }
+
+ 
+
+
+.btnConsultation {
+  padding: 0px;
+  height: 46px;
+  // width: 175px;
+  border-radius: 8px;
+  border: none;
+  margin-top: -7px;
+  background: peachpuff;
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  margin-bottom: 5px;
+  right: 3px;
+}
+
+.btnConsultation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  z-index: 1;
+  animation: border-move 4s linear infinite, border-color 4s linear infinite;
+}
+
+@keyframes border-move {
+  0% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+  25% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  75% {
+    clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+}
+
+@keyframes border-color {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: blue;
+  }
+  50% {
+    border-color: green;
+  }
+  75% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.btnConsultationP {
+  font-size: 15px;
+  margin: 0px;
+}
+
+.lang-container {
+  position: relative;
+  height: 23px;
+  background-color: transparent;
+  right: 10px;
+  // background: gold;
+    width: 34px;
+    // margin-left: -5%;
+}
+
+.lang {
+  font-size: 30px;
+  border: none;
+  color: blue;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  // margin-left: -33%;
+  margin-top: -37%;
+ 
+}
+
+.lang-icon {
+  width: 10px;
+  height: 10px;
+  margin-left: 1px;
+}
+
+.language-options {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  
+  z-index: 1000;
+  height: 23px;
+  
+  background-color: transparent;
+  width: 45px;
+}
+
+.language-options button {
+  
+  background-color: transparent;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 4px;
+  margin-left: 3%;
+    
+}
+
+
+// .headerLogoContacts{
+//   @media (min-width: 768px) and (max-width: 1024px) {
+// width: 100%;
+// margin-left: -8px;
+// height: 150px;
+//   }
+// }
+
+
+
+.logoText {
+  @media (min-width: 320px) {
+    width: 180px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    // letter-spacing: 0.5px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    animation: fadeInText 2s ease-in-out;
+  }
+}
+
+.LogoTextSpan {
+ 
+  font-weight: bold;
+  color: #ff4500; /* Акцентный цвет для "Гарант" */
+  @media (min-width: 320px) {
+    font-size: 25px;
+    margin-left: 3%;
+    text-transform: none;
+    background: linear-gradient(45deg, #ff4500, #ff9c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Анимация появления текста */
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Эффект при наведении на текст */
+.logoText:hover {
+  color: blue;
+  transition: color 0.3s ease;
+}
+
+.LogoTextSpan:hover {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  transition: text-shadow 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px)  {
+  .headerLogoContacts {
+    width: 100%;
+    margin-left: -8px;
+    height: 180px;
+  }
+  .logotip2 {
+    width: 80px;
+    height: 80px;
+    margin: 3px 0 0 55px;
+}
+.logoText {
+  font-size: 20px;
+  margin-top: 2%;
+}
+.LogoTextSpan{
+  font-size: 25px;
+}
+.logoTelefon{
+  width: 45px;
+        height: 45px;
+        margin-top: 3%;
+}
+.header__phone_p{
+  font-size: 23px;
+  margin-top: 5%;
+}
+.logotel{
+  // margin-right: 50%;
+  background: gold;
+  width: 50%;
+}
+.divLogotip{
+  background: gray;
+  width: 50%;
+}
+.logoleftHom{
+  background: greenyellow;
+  // margin-left: 8%;
+  display: flex;
+        justify-content: space-between;
+        width: 100%;
+}
+.btnConsultationP{
+  font-size: 20px;
+}
+.btnConsultation{
+  height: 60px;
+  width: 280px;
+  margin-top: 1px;
+  margin-left:10%;
+}
+.lang-container{
+  margin-left: 6%;
+}
+.lang{
+  font-size: 35px;
+}
+.lang-icon{
+  width: 15px;
+    height: 15px;
+    margin-left: 4px;
+}
+
+.logoTelegram, .logoViber, .logoEmail {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.logoDiv3{
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.language-options button {
+  font-size: 35px;
+  margin-top: 20%;
+}
+
+}

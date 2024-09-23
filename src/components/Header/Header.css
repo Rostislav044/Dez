@@ -1,0 +1,76 @@
+@media (min-width: 460px) {
+  .divLogotip {
+    display: flex;
+    background-color: aliceblue;
+    width: 50%;
+  }
+}
+
+.logotel {
+  background-color: aliceblue;
+  width: 50%;
+}
+
+@media (min-width: 460px) {
+  .logoText {
+    width: 180px;
+    margin-left: 2%;
+    margin-top: 5px;
+  }
+}
+
+@media (min-width: 460px) {
+  .LogoTextSpan {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 460px) {
+  .aLogoTel {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 460px) {
+  .headerLogoContacts {
+    display: flex;
+  }
+}
+
+@media (min-width: 460px) {
+  .logotip {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 460px) {
+  .logoTelefon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 460px) {
+  .logoTelegram, .logoViber, .logoEmail {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 460px) {
+  .logoDiv3 {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 460px) {
+  .header__phone_p {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media (min-width: 460px) {
+  .burger-menu {
+    background: cornflowerblue;
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера бургер-меню */
+    display: inline-block; /* Отображаем элемент как встроенный блок */
+    cursor: pointer; /* Меняем курсор на указатель при наведении на элемент */
+    width: 100%;
+  }
+}
+
+.burger-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.menu-items li a {
+  color: white; /* Цвет текста для ссылок */
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+  display: block; /* Отображаем ссылку как блок */
+}
+
+.menu-items li:hover a:hover {
+  color: #575757; /* Меняем цвет фона при наведении на элемент списка */
+}
+
+.menu-items li:hover {
+  color: #575757;
+}/*# sourceMappingURL=BurgerMenu.css.map */
